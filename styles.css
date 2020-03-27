@@ -1,0 +1,51 @@
+body {
+    background: #F79D65;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+button {
+    border: 1px solid rgb(202, 127, 80);
+    border-radius: 4px;
+    margin-top: 17px;
+    width: 157px;
+    background-color: #FF9C24;
+    color: #FF2524;
+    align-self: center;
+    outline: inherit;
+    padding:10px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.gigabyte{
+    background-image: url('https://img.vixdata.io/pd/jpg-large/pt/sites/default/files/g/giga-byte-malhacao-vagabanda-0817-1400x800.jpg');
+    background-repeat:no-repeat;
+    min-width: 777px;
+    height: 453px;
+    border-radius: 4px;
+    background-position: center;
+   
+}
+
+button:disabled {
+    background-color: #9b9494c2;
+    
+    
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 16px;
+    align-self: center;
+    font-weight: bolder;
+}
+
+button:hover:not([disabled]){ 
+    padding: 12px;
+    background-color: rgba(168, 97, 9, 0.877)
+}
+
+
